@@ -1,0 +1,114 @@
+body{
+    background-image: url(img/bg.jpg);
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: #f0dcf6;
+    padding: 0px;
+    margin: 0px;
+}
+.steps{
+    display: flex;
+    justify-content: center;
+    padding-top: 600px;
+}
+.steps>img{
+    max-width: 600px;
+}
+.btn{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 90%;
+    font-family: Arial, sans-serif;
+    margin: auto;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #656865;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  td:first-child {
+    border-left: 1px solid #ddd;
+  }
+  
+  td:last-child {
+    border-right: 1px solid #ddd;
+  }
+.accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 800px;
+    margin: 20px auto;
+
+  }
+  
+  .accordion-item {
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  
+  .accordion-header {
+    background-color: #7c747467;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: rgba(61, 62, 62, 0.299);
+  }
+  
+  .accordion-item.active .accordion-content {
+    max-height: 500px;
+    transition: max-height 0.3s ease-in-out;
+  }
+  .accordion-icon {
+    margin-left: auto;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .accordion-item.active .accordion-icon {
+    transform: rotate(45deg);
+  }
+  .accordion-icon {
+    font-weight: bold;
+    margin-left: auto;
+  }
+  
+  .charecters>img{
+    width: 311px;
+    height: 530px;
+    transition: top 0.3s
+
+  }
+.charecters>img:hover{
+  width: 330px;
+  height: 549px;
+
+}
